@@ -158,7 +158,7 @@ export const restaurant = {
 }
 
 export const gallery = [
-  { caption: 'Mobi, nuestra guía, en la Sala Arrecifes', image: '/mobi-asistente.jpeg', span: 'md:col-span-2 md:row-span-2' },
+  { caption: 'Mobu, nuestra guía, en la Sala Arrecifes', image: '/mobi-asistente.jpeg', span: 'md:col-span-2 md:row-span-2' },
   { caption: 'Bosque de kelp en la Sala RV', art: 'kelp' },
   { caption: 'La cúpula del Cine 360º', art: 'dome' },
   { caption: 'Medusas luminosas, zona de medianoche', art: 'jelly', span: 'md:row-span-2' },
@@ -167,7 +167,7 @@ export const gallery = [
 ]
 
 export const merch = [
-  { name: 'Peluche Mobi', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/image.png' },
+  { name: 'Peluche Mobu', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/image.png' },
   { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 $', image: '/merch/image copy.png' },
   { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 $', image: '/merch/image copy 2.png' },
   { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 $', image: '/merch/image copy 3.png' },

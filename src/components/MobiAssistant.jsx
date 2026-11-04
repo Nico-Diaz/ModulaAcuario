@@ -4,8 +4,8 @@ import { X } from 'lucide-react'
 import { faq } from '../data/content.js'
 
 const greeting = {
-  from: 'mobi',
-  text: '¡Hola! Soy Mobi, la mobula que te acompaña en la inmersión. ¿En qué te puedo ayudar?',
+  from: 'mobu',
+  text: '¡Hola! Soy Mobu, la mobula que te acompaña en la inmersión. ¿En qué te puedo ayudar?',
 }
 
 function Avatar({ className = '' }) {
