@@ -38,7 +38,7 @@ export default function Contacto() {
     errors[name] ? { 'aria-invalid': true, 'aria-describedby': `${name}-error` } : {}
 
   return (
-    <Section id="contacto" title="Contacto" intro="Ha llegado al fondo. Si tiene alguna duda, escribanos y le respondemos en menos de 48 horas.">
+    <Section id="contacto" title="Hablemos de tu visita" intro="¿Venís con tu escuela, querés organizar un evento o consultar por el restaurante? Escribinos y te ayudamos.">
       <div className="grid gap-12 md:grid-cols-[1fr_1.3fr] md:gap-16">
         <div className="space-y-6">
           <p className="flex gap-3">

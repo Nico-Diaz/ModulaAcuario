@@ -225,10 +225,10 @@ export const tickets = [
 ]
 
 export const contact = {
-  address: 'Av. del Puerto 12, 46024 Valencia',
-  phone: '+34 960 000 000',
-  email: 'hola@mobula-acuario.es',
-  hours: [['Lunes a jueves', '10:00 – 20:00'], ['Viernes a domingo y festivos', '10:00 – 22:00']],
+  address: 'Rivadavia 701-799, M5504 Godoy Cruz, Mendoza',
+  phone: '+54 261 6323186',
+  email: 'experienciamobula@gmail.com',
+  hours: [['Lunes a jueves', '09:00 – 16:00 / 18:00 – 22:00'], ['Viernes a domingo y feriados', '17:00 – 22:00']],
   socials: ['Instagram', 'TikTok', 'YouTube'],
   reasons: ['Información general', 'Visita escolar', 'Reserva de grupo', 'Restaurante', 'Prensa', 'Otro'],
 }
