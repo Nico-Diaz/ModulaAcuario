@@ -167,13 +167,13 @@ export const gallery = [
 ]
 
 export const merch = [
-  { name: 'Peluche Mobi', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/PelucheyLlavero.png' },
-  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 $', image: '/merch/Remeras.png' },
-  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 $', image: '/merch/GorrayBolsa.png' },
-  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 $', image: '/merch/GorrayBolsa.png' },
-  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 $', image: '/merch/BotellayCuaderno.png' },
-  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 $', image: '/merch/BotellayCuaderno.png' },
-  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 $', image: '/merch/PelucheyLlavero.png' },
+  { name: 'Peluche Mobi', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/image.png' },
+  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 $', image: '/merch/image copy.png' },
+  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 $', image: '/merch/image copy 2.png' },
+  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 $', image: '/merch/image copy 3.png' },
+  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 $', image: '/merch/image copy 4.png' },
+  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 $', image: '/merch/image copy 5.png' },
+  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 $', image: '/merch/image copy 6.png' },
 ]
 
 export const tickets = [
