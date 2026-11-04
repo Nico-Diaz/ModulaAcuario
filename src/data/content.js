@@ -72,7 +72,7 @@ export const about = {
     { value: '120', label: 'especies recreadas' },
     { value: '2.400 m²', label: 'de salas inmersivas' },
     { value: '0', label: 'animales en cautividad' },
-    { value: '1 €', label: 'de cada entrada a conservación' },
+    { value: '1 $', label: 'de cada entrada a conservación' },
   ],
 }
 
@@ -147,10 +147,10 @@ export const restaurant = {
   text: 'Nuestro restaurante, a 1.200 metros de profundidad simulada, sirve cocina mediterránea con pescado de lonja local y temporada. Trabajamos solo con especies certificadas como sostenibles y la carta cambia según lo que entra en puerto.',
   hours: [['Lunes a jueves', '12:00 – 17:00'], ['Viernes a domingo', '12:00 – 23:00']],
   menu: [
-    { dish: 'Arroz meloso de sepia y alcachofa', price: '16 €' },
-    { dish: 'Ceviche de corvina con leche de tigre de cítricos', price: '14 €' },
-    { dish: 'Menú Mobi infantil (croquetas, pescado rebozado y helado)', price: '11 €' },
-    { dish: 'Menú del día con postre y bebida', price: '18 €' },
+    { dish: 'Arroz meloso de sepia y alcachofa', price: '16 $' },
+    { dish: 'Ceviche de corvina con leche de tigre de cítricos', price: '14 $' },
+    { dish: 'Menú Mobi infantil (croquetas, pescado rebozado y helado)', price: '11 $' },
+    { dish: 'Menú del día con postre y bebida', price: '18 $' },
   ],
 }
 
@@ -164,13 +164,13 @@ export const gallery = [
 ]
 
 export const merch = [
-  { name: 'Peluche Mobi', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 €', image: '/merch/PelucheyLlavero.png' },
-  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 €', image: '/merch/Remeras.png' },
-  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 €', image: '/merch/GorrayBolsa.png' },
-  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 €', image: '/merch/GorrayBolsa.png' },
-  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 €', image: '/merch/BotellayCuaderno.png' },
-  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 €', image: '/merch/BotellayCuaderno.png' },
-  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 €', image: '/merch/PelucheyLlavero.png' },
+  { name: 'Peluche Mobi', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/PelucheyLlavero.png' },
+  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 $', image: '/merch/Remeras.png' },
+  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 $', image: '/merch/GorrayBolsa.png' },
+  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 $', image: '/merch/GorrayBolsa.png' },
+  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 $', image: '/merch/BotellayCuaderno.png' },
+  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 $', image: '/merch/BotellayCuaderno.png' },
+  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 $', image: '/merch/PelucheyLlavero.png' },
 ]
 
 export const tickets = [
@@ -178,7 +178,7 @@ export const tickets = [
     id: 'visita-escolar',
     name: 'Visita escolar',
     includes: ['Experiencia inmersiva (Sala RV + Sala Arrecifes)', 'Museo con guía educativa', 'Material didáctico para el aula'],
-    price: '9 €',
+    price: '9 $',
     unit: 'por alumno',
     note: 'Grupos desde 15 alumnos. Un docente gratis por cada 10. De lunes a viernes, mañanas.',
     cta: 'Solicitar visita',
@@ -188,9 +188,9 @@ export const tickets = [
     id: 'pase-libre',
     name: 'Pase libre',
     includes: ['Experiencia inmersiva (Sala RV + Sala Arrecifes)', 'Museo del océano', 'Una sesión de Cine 360º'],
-    price: '29 €',
-    unit: 'adulto, 22 € niños de 4 a 12 años',
-    note: 'La forma de verlo todo. Válido todo el día de la fecha elegida.',
+    price: '29 $',
+    unit: 'adulto, 22 $ niños de 4 a 12 años',
+    note: 'La mejor forma de verlo todo. Válido todo el día de la fecha elegida.',
     cta: 'Comprar pase libre',
     featured: true,
   },
@@ -198,19 +198,19 @@ export const tickets = [
     id: 'experiencia-inmersiva',
     name: 'Experiencia inmersiva',
     includes: ['Sala RV', 'Sala Arrecifes'],
-    price: '19 €',
-    unit: 'adulto, 15 € niños',
+    price: '19 $',
+    unit: 'adulto, 15 $ niños',
     note: 'La Sala RV requiere 8 años o más. Los menores pueden disfrutar de la Sala Arrecifes.',
     cta: 'Comprar experiencia',
   },
   {
     id: 'cine',
     name: 'Cine',
-    includes: ['Cine 360º: 8 €', 'Cine 4D: 10 €', 'Las dos sesiones: 15 €'],
-    price: 'desde 8 €',
+    includes: ['Cine 360º: 8 $', 'Cine 4D: 10 $', 'Las dos sesiones: 15 $'],
+    price: 'desde 8 $',
     unit: 'por sesión',
-    note: 'Elige la hora de la sesión al comprar.',
-    cta: 'Elegir sesión',
+    note: 'Seleccionar la hora de la sesión al comprar.',
+    cta: 'Seleccionar sesión',
   },
   {
     id: 'reservas',
@@ -218,7 +218,7 @@ export const tickets = [
     includes: ['Mesa en el restaurante La Corriente', 'Sin necesidad de entrada al acuario'],
     price: 'Gratis',
     unit: 'la reserva',
-    note: 'Grupos de más de 8 personas: escríbenos.',
+    note: 'Grupos de más de 8 personas: comuníquense con nosotros.',
     cta: 'Reservar mesa',
     href: '#contacto',
   },
@@ -234,10 +234,10 @@ export const contact = {
 }
 
 export const faq = [
-  { q: '¿Qué horario tenéis?', a: 'Abrimos de lunes a jueves de 10:00 a 20:00 y de viernes a domingo y festivos de 10:00 a 22:00.', href: '#contacto', link: 'Ver contacto' },
-  { q: '¿Cuánto cuesta la entrada?', a: 'El Pase libre, que incluye casi todo, cuesta 29 € para adultos y 22 € para niños. La Experiencia inmersiva sola cuesta 19 €.', href: '#entradas', link: 'Ver entradas' },
+  { q: '¿Qué horario tienen?', a: 'Abrimos de lunes a jueves de 10:00 a 20:00 y de viernes a domingo y festivos de 10:00 a 22:00.', href: '#contacto', link: 'Ver contacto' },
+  { q: '¿Cuánto cuesta la entrada?', a: 'El Pase libre, que incluye casi todo, cuesta 29 $ para adultos y 22 $ para niños. La Experiencia inmersiva sola cuesta 19 $.', href: '#entradas', link: 'Ver entradas' },
   { q: '¿Desde qué edad se puede usar la RV?', a: 'La Sala RV es a partir de 8 años. Los más pequeños disfrutan muchísimo de la Sala Arrecifes, que no necesita gafas.', href: '#sala-rv', link: 'Ver Sala RV' },
-  { q: 'Quiero traer a mi clase', a: 'La visita escolar cuesta 9 € por alumno e incluye la experiencia inmersiva, el museo y material para el aula.', href: '#visita-escolar', link: 'Ver visita escolar' },
-  { q: '¿Puedo reservar en el restaurante?', a: 'Sí, y la reserva es gratis. No hace falta entrada al acuario para comer en La Corriente.', href: '#reservas', link: 'Reservar mesa' },
+  { q: 'Quiero traer a mi clase', a: 'La visita escolar cuesta 9 $ por alumno e incluye la experiencia inmersiva, el museo y material para el aula.', href: '#visita-escolar', link: 'Ver visita escolar' },
+  { q: '¿Puedo reservar en el restaurante?', a: 'Sí, y la reserva es gratis. No se requiere entrada al acuario para comer en La Corriente.', href: '#reservas', link: 'Reservar mesa' },
   { q: '¿Cómo llego?', a: 'Estamos en la Av. del Puerto 12, en Valencia. Metro Marítim a 5 minutos y parking propio para 200 coches.', href: '#contacto', link: 'Ver mapa' },
 ]

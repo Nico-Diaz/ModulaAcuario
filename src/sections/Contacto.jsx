@@ -7,9 +7,9 @@ const empty = { nombre: '', email: '', motivo: contact.reasons[0], mensaje: '' }
 
 function validate(form) {
   const errors = {}
-  if (!form.nombre.trim()) errors.nombre = 'Escribe tu nombre.'
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) errors.email = 'Escribe un email válido, por ejemplo nombre@correo.com.'
-  if (form.mensaje.trim().length < 10) errors.mensaje = 'Cuéntanos un poco más: al menos 10 caracteres.'
+  if (!form.nombre.trim()) errors.nombre = 'Ingrese su nombre.'
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) errors.email = 'Ingrese un email válido, por ejemplo nombre@correo.com.'
+  if (form.mensaje.trim().length < 10) errors.mensaje = 'Cuéntenos un poco más: al menos 10 caracteres.'
   return errors
 }
 
@@ -38,7 +38,7 @@ export default function Contacto() {
     errors[name] ? { 'aria-invalid': true, 'aria-describedby': `${name}-error` } : {}
 
   return (
-    <Section id="contacto" title="Contacto" intro="Has llegado al fondo. Si tienes cualquier duda, escríbenos y te contestamos en menos de 48 horas.">
+    <Section id="contacto" title="Contacto" intro="Ha llegado al fondo. Si tiene alguna duda, escribanos y le respondemos en menos de 48 horas.">
       <div className="grid gap-12 md:grid-cols-[1fr_1.3fr] md:gap-16">
         <div className="space-y-6">
           <p className="flex gap-3">
@@ -115,7 +115,7 @@ export default function Contacto() {
             Enviar mensaje
           </button>
           <p role="status" className="text-sm text-foam/75">
-            {sent && 'Hemos abierto tu programa de correo con el mensaje listo. Solo falta pulsar enviar.'}
+            {sent && 'Hemos abierto su programa de correo con el mensaje listo. Solo falta pulsar enviar.'}
           </p>
         </form>
       </div>
