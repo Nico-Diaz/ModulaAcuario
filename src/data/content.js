@@ -125,8 +125,8 @@ export const experiences = [
   {
     id: 'cine-360',
     name: 'Cine 360º',
-    tagline: 'Una cúpula entera de océano sobre tu cabeza',
-    text: 'Te tumbas en butacas reclinables y la cúpula se llena de agua: ballenas que pasan por encima, bancos de sardinas que giran a tu alrededor y el silencio del fondo marino.',
+    tagline: 'Más allá de la superficie',
+    text: 'Dejá que el océano te rodee por completo. A través de una proyección panorámica de 360°, viajá por paisajes submarinos, descubrí especies fascinantes y explorá rincones del mundo acuático como si estuvieras allí. Una experiencia audiovisual inmersiva que transforma cada mirada en un nuevo descubrimiento y te acerca a la inmensidad de la vida bajo el agua.',
     facts: [['Duración', '30 min'], ['Edad mínima', 'Todas las edades'], ['Sesiones', 'Cada hora en punto']],
     hue: 'from-indigo-400/40 to-blue-950/10',
     icon: 'Orbit',
@@ -134,9 +134,9 @@ export const experiences = [
   {
     id: 'cine-4d',
     name: 'Cine 4D',
-    tagline: 'Siente la corriente en la piel',
-    text: 'Película en 3D con butacas en movimiento, viento, agua pulverizada y aromas a mar. La experiencia más intensa del acuario: perfecta para los que quieren algo de aventura.',
-    facts: [['Duración', '15 min'], ['Altura mínima', '1,10 m'], ['Sesiones', 'Cada 30 min']],
+    tagline: 'Sentí la corriente en la piel',
+    text: 'Prepará tus sentidos para vivir el océano de una manera diferente. A través de películas inspiradas en la vida acuática, viajá junto a sus protagonistas, explorá hábitats sorprendentes y acompañá sus aventuras. Con efectos especiales que incorporan movimiento, viento, agua y otras sensaciones, cada historia trasciende la pantalla para convertirse en una experiencia que vas a sentir en primera persona.',
+    facts: [['Duración', '1 hora 30 minutos'], ['Altura mínima', '1,10 m'], ['Sesiones', 'Cada 2 horas']],
     hue: 'from-cyan-300/40 to-slate-900/10',
     icon: 'Waves',
   },
