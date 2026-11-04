@@ -26,16 +26,19 @@ export default function Servicios() {
           </div>
           <div>
             <h4 className="font-display text-xl text-glow">De la carta</h4>
-            <ul className="mt-4">
+            <ul className="mt-4 space-y-4">
               {restaurant.menu.map((m) => (
-                <li key={m.dish} className="flex items-baseline gap-3 border-b border-glow/15 py-4">
-                  <span className="leading-snug">{m.dish}</span>
-                  <span className="flex-1 border-b border-dotted border-foam/25" aria-hidden="true" />
-                  <span className="font-display text-xl">{m.price}</span>
+                <li key={m.dish} className="border-b border-glow/15 pb-4">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <span className="font-bold leading-snug">{m.dish}</span>
+                    <span className="font-display text-lg text-coral shrink-0">{m.price}</span>
+                  </div>
+                  {m.description && (
+                    <p className="text-sm text-foam/70 mt-1">{m.description}</p>
+                  )}
                 </li>
               ))}
             </ul>
-            <p className="mt-4 text-sm text-foam/65">Opciones vegetarianas y sin gluten. Pregunta por alérgenos al personal.</p>
           </div>
         </div>
       </article>

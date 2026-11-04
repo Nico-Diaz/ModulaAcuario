@@ -144,13 +144,16 @@ export const experiences = [
 
 export const restaurant = {
   name: 'La Corriente',
-  text: 'Nuestro restaurante, a 1.200 metros de profundidad simulada, sirve cocina mediterránea con pescado de lonja local y temporada. Trabajamos solo con especies certificadas como sostenibles y la carta cambia según lo que entra en puerto.',
-  hours: [['Lunes a jueves', '12:00 – 17:00'], ['Viernes a domingo', '12:00 – 23:00']],
+  text: 'Una pausa para disfrutar, compartir y descubrir nuevos sabores. En MOBULA, la experiencia continúa en la mesa, con una propuesta gastronómica que combina ingredientes regionales, productos frescos y sabores inspirados en la riqueza de nuestro entorno. Un espacio pensado para disfrutar en familia, compartir buenos momentos y encontrar opciones para todos los gustos.',
+  hours: [['Viernes a domingo', '12:00 – 17:00 / 19:00 – 00:00']],
   menu: [
-    { dish: 'Arroz meloso de sepia y alcachofa', price: '16 $' },
-    { dish: 'Ceviche de corvina con leche de tigre de cítricos', price: '14 $' },
-    { dish: 'Menú Mobi infantil (croquetas, pescado rebozado y helado)', price: '11 $' },
-    { dish: 'Menú del día con postre y bebida', price: '18 $' },
+    { dish: 'Empanadas mendocinas', description: 'Carne cortada a cuchillo, aceitunas y especias, acompañadas de salsa criolla.', price: '12.000 $' },
+    { dish: 'Milanesa de ternera', description: 'Milanesa casera con papas rústicas y limón.', price: '20.000 $' },
+    { dish: 'Risotto de hongos y zapallo', description: 'Arroz cremoso con hongos salteados, calabaza asada y parmesano. (vegetariano | sin TAC)', price: '19.000 $' },
+    { dish: 'Ravioles de calabaza y ricota', description: 'Pasta casera rellena de calabaza y ricota con salsa suave de manteca y salvia. (vegetariano)', price: '18.000 $' },
+    { dish: 'Pequeños exploradores', description: 'Bastoncitos de pollo crocantes con papas fritas y bebida. (menú infantil)', price: '14.000 $' },
+    { dish: 'Tesoro de chocolate', description: 'Brownie de chocolate con helado de vainilla. (disponible sin TAC)', price: '9.000 $' },
+    { dish: 'Dulce profundidad', description: 'Flan casero con dulce de leche y crema. (sin TAC)', price: '8.000 $' },
   ],
 }
 
