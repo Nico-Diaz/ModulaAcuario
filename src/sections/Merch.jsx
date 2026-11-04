@@ -7,7 +7,7 @@ export default function Merch() {
     <Section
       id="merch"
       title="Llévate un trocito de océano"
-      intro="Disponible en la tienda del acuario, a la salida del recorrido. Todo el textil es de algodón orgánico."
+      intro="Disponible en la tienda del acuario, a la salida del recorrido."
     >
       <ul className="grid grid-cols-2 gap-x-6 gap-y-12 md:grid-cols-3">
         {merch.map((m) => {
