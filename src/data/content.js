@@ -56,8 +56,8 @@ export const zones = [
 ]
 
 export const hero = {
-  title: 'Sumérgete sin mojarte',
-  text: 'Nada junto a mantas gigantes, atraviesa un arrecife de coral y baja hasta donde el océano brilla con luz propia. Todo con realidad virtual, en pleno centro de la ciudad.',
+  title: 'El océano te espera\nUna nueva forma de descubrir el océano',
+  text: 'Sumergite en un mundo extraordinario donde la tecnología, la imaginación y la vida acuática se encuentran. Explorá, sentí y descubrí sin límites',
   primary: { label: 'Comprar entradas', href: '#entradas' },
   secondary: { label: 'Ver experiencias', href: '#experiencias' },
 }
@@ -65,7 +65,7 @@ export const hero = {
 export const about = {
   title: 'Un acuario sin peceras',
   paragraphs: [
-    'MOBULA nace de una idea sencilla: para enamorarse del océano no hace falta sacar a ningún animal de él. Recreamos ecosistemas marinos reales con realidad virtual, proyección envolvente y sonido espacial grabado en inmersiones científicas.',
+    'MOBULA es un espacio de exploración, aprendizaje y asombro. Unimos experiencias inmersivas, tecnología y concientización para acercarte a la vida acuática de una manera nueva donde las emociones flotan. Vení a formar parte del océano, conocer sus habitantes y descubrir por qué vale la pena cuidarlo.',
     'Trabajamos con biólogos marinos y centros de investigación para que cada especie se mueva, suene y se comporte como en libertad. Una parte de cada entrada financia proyectos de conservación de mantas y arrecifes en el Mediterráneo y el Índico.',
   ],
   stats: [
@@ -78,14 +78,14 @@ export const about = {
 
 export const news = [
   {
-    date: 'Noviembre 2026',
-    title: 'Estreno: La gran migración de las mobulas',
-    text: 'Una nueva inmersión en la Sala RV que te pone en medio de un banco de miles de mantas saltando sobre el mar de Cortés.',
+    date: 'Octubre 2026',
+    title: 'CONICET: 57 nuevas especies marinas descubiertas',
+    text: 'El CONICET confirmó el descubrimiento de 57 nuevas especies marinas y 5 nuevos géneros tras analizar muestras del cañón submarino de Mar del Plata.',
   },
   {
     date: 'Diciembre 2026',
-    title: 'Temporada de invierno en el Cine 4D',
-    text: '“Hielo y ballenas”: viaja bajo la banquisa antártica con frío, viento y salpicaduras de verdad.',
+    title: 'Temporada de verano Cine 4D',
+    text: 'Whalefall 2026·1h 46m\nUn thriller de supervivencia submarina dirigido por Brian Duffield en el que un buzo (Austin Abrams) busca los restos de su padre y es tragado por un cachalote de 60 toneladas, disponiendo de solo sesenta minutos de oxígeno para escapar.',
   },
   {
     date: 'Todo el curso',
@@ -98,8 +98,8 @@ export const experiences = [
   {
     id: 'sala-rv',
     name: 'Sala RV',
-    tagline: 'Bucea en mar abierto con gafas de realidad virtual',
-    text: 'Te pones el visor, das un paso y estás a 20 metros de profundidad. Eliges ruta: nadar con mobulas, explorar un pecio o seguir a una tortuga hasta su playa. Cada estación es individual y libre de cables.',
+    tagline: 'Animate a nadar con nuestros lentes de realidad virtual',
+    text: 'Animate a nadar con nuestros lentes de realidad virtual y sumergite en nuestras experiencias inmersivas. Eligí que corriente tomar y nada con tu animal favorito.',
     facts: [['Duración', '25 min'], ['Edad mínima', '8 años'], ['Aforo', '16 personas por pase']],
     hue: 'from-sky-400/40 to-blue-900/10',
     icon: 'Glasses',
@@ -107,18 +107,18 @@ export const experiences = [
   {
     id: 'sala-arrecifes',
     name: 'Sala Arrecifes',
-    tagline: 'Un arrecife de coral proyectado a tu alrededor',
-    text: 'Sin gafas: paredes, suelo y techo se convierten en un arrecife vivo que reacciona a tus pasos. Los peces payaso se esconden si te acercas demasiado y el coral cambia de color según la hora del día.',
+    tagline: 'Sin gafas; paredes, suelo y techo se convierten en un ecosistema',
+    text: 'Sin gafas; paredes, suelo y techo se convierten en un ecosistema perfecto para que hagas una pausa, disfrutes de las profundidades y aprendas junto a tu guía de confianza.',
     facts: [['Duración', '20 min'], ['Edad mínima', 'Todas las edades'], ['Aforo', '40 personas']],
     hue: 'from-coral/40 to-teal-700/10',
     icon: 'Shell',
   },
   {
     id: 'museo',
-    name: 'Museo del océano',
-    tagline: 'Ciencia marina que se toca',
-    text: 'Esqueletos a escala real, maquetas de corrientes, una mesa interactiva para clasificar plancton y la historia de la exploración submarina, desde las campanas de buceo hasta los robots abisales.',
-    facts: [['Duración', 'Libre (≈ 45 min)'], ['Edad mínima', 'Todas las edades'], ['Accesible', 'Sí, con audioguía']],
+    name: 'Museo analógico',
+    tagline: 'Descubrí nuestras últimas noticias',
+    text: 'Descubrí nuestras últimas noticias a nivel nacional; historias, especies, y curiosidades para comprender mejor la vida acuática que tanto nos intriga y emociona.',
+    facts: [['Duración', 'Libre (20 min)'], ['Edad mínima', 'Todas las edades'], ['Accesible', 'Sí, con audioguía']],
     hue: 'from-amber-200/30 to-blue-900/10',
     icon: 'Landmark',
   },

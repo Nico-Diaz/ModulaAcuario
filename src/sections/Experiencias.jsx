@@ -22,8 +22,8 @@ export default function Experiencias() {
   return (
     <Section
       id="experiencias"
-      title="Cinco formas de bajar al fondo del mar"
-      intro="Puedes vivirlas por separado o combinarlas con el Pase libre. Todas las salas están adaptadas para sillas de ruedas."
+      title="Mucho más que mirar el mar."
+      intro="Un recorrido para todas las edades: espacios inmersivos, historias, tecnología y encuentros sorprendentes con la vida acuática."
     >
       <div className="space-y-24 md:space-y-32">
         {experiences.map((exp, i) => (
