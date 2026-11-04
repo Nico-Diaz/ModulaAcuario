@@ -164,12 +164,13 @@ export const gallery = [
 ]
 
 export const merch = [
-  { name: 'Peluche Mobi', detail: '30 cm, relleno reciclado', price: '19,90 €', image: '/mobi-asistente.jpeg' },
-  { name: 'Camiseta “Sumérgete”', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 €', icon: 'Shirt' },
-  { name: 'Taza abisal', detail: 'Cambia de color con el calor', price: '12 €', icon: 'Coffee' },
-  { name: 'Gorra Mobula', detail: 'Bordada, ajustable', price: '18 €', icon: 'Sun' },
-  { name: 'Botella reutilizable', detail: 'Acero, 750 ml', price: '16 €', icon: 'Droplet' },
-  { name: 'Libro “Gigantes del océano”', detail: 'Ilustrado, de 7 a 12 años', price: '15 €', icon: 'BookOpen' },
+  { name: 'Peluche Mobi', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 €', image: '/merch/PelucheyLlavero.png' },
+  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 €', image: '/merch/Remeras.png' },
+  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 €', image: '/merch/GorrayBolsa.png' },
+  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 €', image: '/merch/GorrayBolsa.png' },
+  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 €', image: '/merch/BotellayCuaderno.png' },
+  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 €', image: '/merch/BotellayCuaderno.png' },
+  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 €', image: '/merch/PelucheyLlavero.png' },
 ]
 
 export const tickets = [
