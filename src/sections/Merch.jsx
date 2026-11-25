@@ -14,13 +14,14 @@ export default function Merch() {
           const Icon = m.icon && icons[m.icon]
           return (
             <li key={m.name} className="flex flex-col">
-              <div className="relative w-full overflow-hidden rounded-2xl bg-gradient-to-br from-glow/10 to-deep ring-1 ring-glow/20 aspect-square mb-4">
+              <div className={`relative w-full overflow-hidden rounded-2xl ring-1 ring-glow/20 aspect-square mb-4 ${m.image ? 'bg-white' : 'bg-gradient-to-br from-glow/10 to-deep'}`}>
                 {m.image ? (
                   <img
                     src={m.image}
                     alt={m.name}
                     loading="lazy"
                     className="w-full h-full object-cover object-center"
+                    style={m.shiftY && { translate: `0 ${m.shiftY}` }}
                   />
                 ) : Icon ? (
                   <div className="w-full h-full flex items-center justify-center">

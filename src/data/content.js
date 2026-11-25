@@ -158,22 +158,26 @@ export const restaurant = {
 }
 
 export const gallery = [
-  { caption: 'Mobu, nuestra guía, en la Sala Arrecifes', image: '/mobi-asistente.jpeg', span: 'md:col-span-2 md:row-span-2' },
-  { caption: 'Bosque de kelp en la Sala RV', art: 'kelp' },
-  { caption: 'La cúpula del Cine 360º', art: 'dome' },
-  { caption: 'Medusas luminosas, zona de medianoche', art: 'jelly', span: 'md:row-span-2' },
-  { caption: 'Banco de sardinas en el Cine 4D', art: 'school' },
-  { caption: 'Esqueleto de rorcual en el museo', art: 'museum', span: 'md:col-span-2' },
+  { caption: 'Mobu, nuestra guía, en la Sala Arrecifes', image: '/mobi-asistente.jpeg', span: 'sm:col-span-2 md:row-span-2' },
+  { caption: 'Entrada a Realidad Virtual y Proyección 360º', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32.jpeg', span: 'sm:col-span-2' },
+  { caption: 'El hall de MOBULA', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (6).jpeg' },
+  { caption: 'Restaurante La Corriente', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (3).jpeg' },
+  { caption: 'Una ballena de luz sobre las olas', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (1).jpeg' },
+  { caption: 'Cara a cara con una orca', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (2).jpeg' },
+  { caption: 'Dibujos de los más pequeños, vivos en el arrecife', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (4).jpeg', span: 'md:col-span-2' },
+  { caption: 'Arrecifes de luz con lentes de realidad virtual', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (5).jpeg', span: 'md:col-span-2' },
+  { caption: 'Un mar cubierto de plástico: por qué cuidarlo', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (7).jpeg' },
+  { caption: 'Glaciares, el agua que alimenta el océano', image: '/Galeria/WhatsApp Image 2026-11-25 at 14.26.32 (8).jpeg' },
 ]
 
 export const merch = [
-  { name: 'Peluche Mobu', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/image.png' },
-  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 $', image: '/merch/image copy.png' },
-  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 $', image: '/merch/image copy 2.png' },
-  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 $', image: '/merch/image copy 3.png' },
-  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 $', image: '/merch/image copy 4.png' },
-  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 $', image: '/merch/image copy 5.png' },
-  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 $', image: '/merch/image copy 6.png' },
+  { name: 'Peluche Mobu', detail: 'Tamaño grande 40cm, tamaño mediano 15cm', price: '19,90 $', image: '/merch/image copy 5.png', shiftY: '-15%' },
+  { name: 'Remera Mobu', detail: 'Algodón orgánico, tallas XS–XXL', price: '22 $', image: '/merch/image copy 6.png' },
+  { name: 'Gorra Mobula', detail: 'Gabardina/algodón, azul marino bordado', price: '18 $', image: '/merch/image.png', shiftY: '-7%' },
+  { name: 'Tote Bag', detail: 'Lienzo/algodón orgánico, natural + logo', price: '16 $', image: '/merch/image copy.png' },
+  { name: 'Botella reutilizable', detail: 'Acero inoxidable, azul marino 750ml', price: '24 $', image: '/merch/image copy 3.png' },
+  { name: 'Cuaderno', detail: 'Hojas de material reciclado, tapa dura', price: '14 $', image: '/merch/image copy 2.png' },
+  { name: 'Llavero Mobu', detail: 'Acompañante compacto', price: '8 $', image: '/merch/image copy 4.png' },
 ]
 
 export const tickets = [
